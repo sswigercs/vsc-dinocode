@@ -17,7 +17,7 @@ function activate(context) {
     // The commandId parameter must match the command field in package.json
     var disposable = vscode.commands.registerCommand('extension.dino', function () {
         // The code you place here will be executed every time your command is executed
-        var fileName = path.join(__dirname, 'snd', 'dinoroar.mp3');
+        var fileName = path.join(__dirname, '..', 'snd', 'dinoroar.mp3');
         // Display a message box to the user
         //vscode.window.showInformationMessage('Hello World!');
         player.play(fileName, function(err){

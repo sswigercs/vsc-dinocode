@@ -2,7 +2,7 @@
     "name": "dinocode",
     "displayName": "dinocode",
     "description": "Add a dinosaur to VSCode",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "swigersoft",
     "engines": {
         "vscode": "^1.16.0"
@@ -13,7 +13,7 @@
     "activationEvents": [
         "onCommand:extension.dino"
     ],
-    "main": "./extension",
+    "main": "./src/extension",
     "contributes": {
         "commands": [{
             "command": "extension.dino",
