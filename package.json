@@ -2,7 +2,7 @@
     "name": "dinocode",
     "displayName": "dinocode",
     "description": "Add a dinosaur to VSCode",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "swigersoft",
     "engines": {
         "vscode": "^1.16.0"
@@ -23,6 +23,10 @@
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "node ./node_modules/vscode/bin/test"
+    },
+    "dependencies": {
+        "find-exec": "^1.0.0",
+        "play-sound": "^1.1.1"
     },
     "devDependencies": {
         "typescript": "^2.5.2",
