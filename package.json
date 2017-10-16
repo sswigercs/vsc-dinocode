@@ -2,7 +2,7 @@
     "name": "dinocode",
     "displayName": "dinocode",
     "description": "Add a dinosaur to VSCode",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "swigersoft",
     "engines": {
         "vscode": "^1.16.0"
